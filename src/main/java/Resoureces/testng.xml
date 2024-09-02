@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "file:C:\Users\ankushkumar.singh\eclipse-workspace\RBL_LOA\src\main\java\Resoureces\testng-1.0.dtd">
+<suite name="Loan Application Suite" parallel="none" >
+    <listeners>
+        <!-- Register your custom listener here -->
+        <listener class-name="RBL.Listeners"/>
+    </listeners>
+    <test name="Loan Application Tests">
+        <classes>
+            <!-- Replace with the fully qualified name of your test class -->
+            <class name="Client_Project.LoanAppCreation"/>
+        </classes>
+    </test>
+</suite>
